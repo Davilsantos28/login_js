@@ -28,6 +28,10 @@ const LoginScreen = () => {
       <TouchableOpacity style={styles.loginBtn}>
         <Text style={styles.loginText}>Login</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.cadasBtn}>
+        <Text style={styles.loginText}>Cadastre-se</Text>
+      </TouchableOpacity>
     </View>
   </SafeAreaView> 
   );
@@ -64,7 +68,19 @@ const styles = StyleSheet.create({
   },
   loginBtn: {
     width: '80%',
-    backgroundColor: '#fb5b5a',
+    backgroundColor: '#303E73',
+    borderRadius: 25,
+    height: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 40,
+    marginBottom: 10, },
+  loginText: {
+    color: 'white',
+  },
+  cadasBtn: {
+    width: '80%',
+    backgroundColor: '#c84145',
     borderRadius: 25,
     height: 50,
     alignItems: 'center',
